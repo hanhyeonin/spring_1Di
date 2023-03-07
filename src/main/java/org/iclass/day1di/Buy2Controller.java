@@ -3,9 +3,7 @@ package org.iclass.day1di;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import lombok.Setter;
-
-@Component
+@Component(value="controller")
 public class Buy2Controller {
 	
 	@Autowired					// 이미 만들어진 Buy2Service 객체(bean)을 자동 주입
@@ -30,4 +28,4 @@ public class Buy2Controller {
 		service.buy();
 	}
 }
-// @Component 이노테이션 : bean으로 만들어질 클래스 위에 설정합니다.
+// @Component 이노테이션 : bean으로 만들어질 클래스 위에 설정합니다. 즉 bean으로 만들어 줍니다.
