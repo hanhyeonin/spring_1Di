@@ -11,13 +11,15 @@ public class ProductApp {
 			= new AnnotationConfigApplicationContext(ProductConfig.class);
 		
 //		ProductDao dao = context.getBean(ProductDao.class);
-//		dao.product();
-		
+//		dao.product();				
+//		// setter 주입으로 사용할 경우 count 값을 못가져온다.
+//		
 //		ProductService service = context.getBean(ProductService.class);
 //		service.product();
-		
+//		
 //		ProductController controller = context.getBean(ProductController.class);
 //		controller.product();
+		
 		
 	}
 }
